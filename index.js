@@ -9,3 +9,7 @@ function destructivelyUpdateObjectWithKeyAndValue (object, key, value) {
   Object.assign(object, {[key]: value});
   return object;
 }
+
+function deleteFromObjectByKet(object, key) {
+  var keyGone = delete object.key
+}
