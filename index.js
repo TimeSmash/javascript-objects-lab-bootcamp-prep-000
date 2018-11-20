@@ -10,7 +10,7 @@ function destructivelyUpdateObjectWithKeyAndValue (object, key, value) {
   return object;
 }
 
-function deleteFromObjectByKet(object, key) {
+function deleteFromObjectByKey(object, key) {
   var newRecipe = Object.assign({}, recipe)
   delete newRecipe[key];
   return newRecipe;
